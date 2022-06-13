@@ -18,6 +18,7 @@ elif oper == '//':
 if oper == '%':
     print(f_num % s_num)
 
-    
+else:
+    print('Данной операции нет в системе')
 
 
