@@ -9,6 +9,15 @@ if oper == '*':
     print(f_num * s_num)
 elif oper == '/':
     print(f_num / s_num)
+
+if oper == '**':
+    print(f_num ** s_num)
+elif oper == '//':
+    print(f_num // s_num)
+
+if oper == '%':
+    print(f_num % s_num)
+
     
 
 
