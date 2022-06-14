@@ -99,3 +99,7 @@ list_.sort()
 # reverse=True сортирует по убыванию
 list_ = [2,1,5,3,8,4,7,6,10,9]
 list_.sort(reverse=True) # [10,9,8,7,6,5,4,3,2,1]
+
+
+
+
