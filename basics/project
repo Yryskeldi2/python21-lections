@@ -2,9 +2,8 @@ import random
 
 guesses_made = 0
 
-
 name = input('Привет! Как тебя зовут?\n')
-
+permision = input('Хочешь играть?' 'Да/Нет')
 
 number = random.randint(1, 30)
 print ('Отлично, {0}, я загадал число между 1 и 30. Сможешь угадать?'.format(name))
@@ -12,10 +11,9 @@ print ('Отлично, {0}, я загадал число между 1 и 30. С
 
 while guesses_made < 6:
    
-   
-    guess = int(input('Введи число: '))
-   
     
+    guess = int(input('Введи число: '))
+
     guesses_made += 1
 
     if guess < number:
@@ -28,28 +26,7 @@ while guesses_made < 6:
         break
 
 if guess == number:
-    print ('Ух ты, {0}! Ты угадал мое число, использовав {1} попыток!'.format(name, guesses_made))
+    print ('Ох ты, {0}! Ты угадал мое число, использовав {1} попыток!'.format(name, guesses_made))
 else:
     print ('А вот и не угадал! Я загадал число {0}'.format(number))
-   
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    permision = input('Хочешь играть?' 'Да/Нет')
